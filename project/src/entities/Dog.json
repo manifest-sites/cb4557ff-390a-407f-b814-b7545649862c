@@ -1,0 +1,46 @@
+{
+  "name": "Dog",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number",
+      "description": "Unique identifier for the dog"
+    },
+    "name": {
+      "type": "string",
+      "description": "Name of the dog"
+    },
+    "breed": {
+      "type": "string",
+      "description": "Breed of the dog"
+    },
+    "age": {
+      "type": "number",
+      "description": "Age of the dog in years"
+    },
+    "size": {
+      "type": "string",
+      "description": "Size category (small, medium, large)"
+    },
+    "temperament": {
+      "type": "string",
+      "description": "General temperament description"
+    },
+    "imageUrl": {
+      "type": "string",
+      "description": "URL to dog image"
+    },
+    "isFavorite": {
+      "type": "boolean",
+      "description": "Whether this dog is marked as favorite"
+    },
+    "description": {
+      "type": "string",
+      "description": "Description of the dog"
+    }
+  },
+  "required": [
+    "name",
+    "breed"
+  ]
+}
